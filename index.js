@@ -31,6 +31,16 @@ function writePassword() {
   };
 };
 
+function getPasswordType (allchar, useChar)){
+  var promptAnswer = prompt("Would you like to use uppercase characters? (y=yes/n=no)"); //prompts the user for if they wanna use uppercase 
+  if(promptAnswer !== null){                                                            // checks to make sure the user did NOT hit cancel on the prompt which would return null
+    if(promptAnswer.toLowerCase() === "y" || promptAnswer.toLowerCase() === "yes"){ // checks if the user said agreeed
+      userChar.push(...allChar[0].slice(0))                                          //uses the spread function to slice each individual item on the sub array into passwordType
+    };
+  };
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+
 console.log(generateBtn)
