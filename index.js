@@ -24,7 +24,7 @@ function writePassword() {
       if (passswordType.length !== 0) {
         var passwordLength = getPasswordLength();
         for(var i = 0; i<passwordLength; i++){
-            newPassword += passswordType[Math.floor(Math.random() * passswordType.lastIndexOf)];
+            newPassword += passswordType[Math.floor(Math.random() * passswordType.length)];
         }
       }
       return newPassword;
@@ -86,8 +86,8 @@ function getPasswordLength(){
   }
   else {
     return;
-  }
-};
+  };
+}
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
