@@ -10,8 +10,6 @@ Given html and css files, this project aims to develop an algorithm in javascrip
 
 
 ## Getting Started
-To open the deployed site, [click here](https://leog888.github.io/PasswordGenerator/).
-
 To view the html code, open index.html.
 
 To view the css code, open style.css.
@@ -20,7 +18,6 @@ To view the javascript code, open index.js.​
 
 ## Deployed Link 
 
-* [Click Me]()
 
 ## Author 
 Leonardo Gutierrez 
