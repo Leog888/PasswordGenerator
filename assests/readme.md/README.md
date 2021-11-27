@@ -17,8 +17,7 @@ To view the css code, open style.css.
 To view the javascript code, open index.js.​
 
 ## Deployed Link 
-
-
+* [Click Me](https://leog888.github.io/PasswordGenerator/)!
 ## Author 
 Leonardo Gutierrez 
 
